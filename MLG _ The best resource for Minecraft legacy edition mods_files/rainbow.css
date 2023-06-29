@@ -1,0 +1,57 @@
+.rainbow {
+    padding: 0;
+    display: block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: pink;
+    animation: rainbow_animation 4s ease-in-out infinite;
+    background-size: 400%;
+    box-sizing: border-box;
+
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 100% 0
+    }
+}
+
+
+.rainbow_text_1 {
+    background-image: linear-gradient(to right,#2E3192,#1BFFFF);
+}
+
+.rainbow_text_2 {
+    background-image: linear-gradient(to right, #614385, #00CDAC);
+}
+
+.rainbow_text_3 {
+    background-image: linear-gradient(to right, #66f, #09f, #0f0, #f39, #66f);
+}
+
+.rainbow_text_4 {
+    background-image: linear-gradient(to right,#DD2476,#FF512F,#ED1E79,#662D8C);
+}
+
+.rainbow_tenacity {
+    background-image: linear-gradient(to right,#EF83D7,#2EB8F0);
+}
+
+.rainbow_rat {
+    background-image: linear-gradient(45deg, #ef8383,#f02e2e);
+}
+
+.rainbow_forge {
+    background-image: linear-gradient(45deg, #efe883,#edf02e);
+    color:black;
+}
+
+.rainbow_fabric {
+    background-image: linear-gradient(45deg, #ffffff,#74b4f0);
+    color:black;
+}
